@@ -28,10 +28,8 @@ body{
 }
 
 .header-navigation{
-    /* height: 33px; */
     text-align: center;
     position: relative;
-    /* margin: 0 10px; */
 }
 
 .menu_button{
@@ -80,5 +78,43 @@ body{
 }
 
 @media screen and (min-width: 768px) {
+    .header-navigation{
+        margin: 20px 30px;
+        padding: 0;
+        width: 600px;
+    }
 
+    .menu_button{
+        display: none;
+    }
+
+    .header-navigation:hover > .menu_list{
+        display: flex;
+    }
+
+    .menu_list{
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu_list-item{
+        width: auto;
+    }
+
+    .menu_list-item-link{
+        text-transform: uppercase;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    
+    .menu_list-item-link:hover{
+        color: #330cf4;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
 }
