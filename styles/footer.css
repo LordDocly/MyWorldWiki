@@ -1,0 +1,56 @@
+main{
+    margin-bottom: 10px;
+}
+
+.footer{
+    /* height: 50px; */
+    width: 100%;
+    background-color: #777777;
+    position: static;
+    bottom: 0px;
+    /* display: inline; */
+}
+
+.footer_disclaimer{
+    padding: 5px 0 0 0;
+    margin: 0 5px;
+}
+
+.footer_disclaimer-header{
+    font-size: 18px;
+    width: fit-content;
+    color: #ff6767;
+    border: 1px solid #ff6767;
+    background-color: #fff;
+    padding: 1px 3px;
+}
+
+.footer_disclaimer-paragraph1{
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 0 0 0;
+}
+
+.footer_disclaimer-paragraph2{
+    font-size: 14px;
+    color: #fff;
+    padding: 1px 0 0 0;
+}
+
+.footer_contacts{
+    margin: 5px 0 0 0;
+}
+
+.footer_contacts-text{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.footer_contacts-link{
+
+}
+
+.footer_contacts-link-image{
+    width: 40px;
+    height: 40px;
+}

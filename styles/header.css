@@ -9,11 +9,13 @@ body{
     background-color: rgb(255, 251, 236);
     display: inline-flex;
     justify-content: space-between;
+    top: 0;
 }
 
 .header_logo{
     height: 100%;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 20px;
+    cursor: pointer;
 }
 
 .header_logo-image{
@@ -37,6 +39,7 @@ body{
     font-weight: 900;
     line-height: 80px;
     margin: 0 10px 0 0;
+    cursor: pointer;
 }
 
 .menu_button:hover{
@@ -77,6 +80,10 @@ body{
     color: #330cf4;
 }
 
+main{
+    margin-top: 80px;
+}
+
 @media screen and (min-width: 768px) {
     .header-navigation{
         margin: 20px 30px;
@@ -115,6 +122,8 @@ body{
     }
 }
 
-@media screen and (min-width: 768px){
-    
+@media screen and (min-width: 1200px){
+    .header-navigation{
+        width: 800px;
+    } 
 }

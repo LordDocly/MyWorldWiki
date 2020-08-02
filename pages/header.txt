@@ -1,0 +1,26 @@
+<header class="header">
+    <a href="#" class="header_logo">
+        <img src="./img/cat_logo.png" alt="logo" class="header_logo-image">
+    </a>
+
+    <nav class="header-navigation">
+        <span class="menu_button">&#9776;</span>
+        <ul class="menu_list">
+            <li class="menu_list-item">
+                <a class="menu_list-item-link" href="#" target="blank">Главная</a>
+            </li>
+            <li class="menu_list-item">
+                <a class="menu_list-item-link" href="#" target="blank">Карты и страны</a>
+            </li>
+            <li class="menu_list-item">
+                <a class="menu_list-item-link" href="#" target="blank">Магия</a>
+            </li>
+            <li class="menu_list-item">
+                <a class="menu_list-item-link" href="#" target="blank">Расы</a>
+            </li>
+            <li class="menu_list-item">
+                <a class="menu_list-item-link" href="#" target="blank">Эпоха "После Магии"</a>
+            </li>
+        </ul>
+    </nav>
+</header>
