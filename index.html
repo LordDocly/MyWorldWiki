@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="SHORTCUT ICON" href="./img/cat_logo_nsmrsyte.png" type="image/x-icon">
+    <link rel="import" href="/header.html">
     <title>MyWorldWiki</title>
 </head>
 
 <body>
     
-    <!-- <header class="header">
+    <header class="header">
         <a href="#" class="header_logo">
             <img src="./img/cat_logo.png" alt="logo" class="header_logo-image">
         </a>
@@ -35,9 +36,13 @@
                 </li>
             </ul>
         </nav>
-    </header> -->
+    </header>
 
-    <!-- #include virtual="pages/header.txt" -->
+    <!-- <script>
+        var link = document.querySelector('link[rel=import]');
+        var content = link.import.querySelector('#header_copy');
+        document.body.appendChild(content.cloneNode(true));
+    </script> -->
 
     <main class="mainpage_main">
         <section>
@@ -63,6 +68,8 @@
         </div>
     </footer>
     
+    <!-- <a href="./pages/site_menu/header.html"></a> -->
+
 </body>
 
 </html>
